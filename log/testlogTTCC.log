@@ -1,0 +1,50 @@
+2023-02-15 16:30:19,816 [main] DEBUG Freshii - Debug logging has started 
+2023-02-15 16:30:23,381 [main] INFO Freshii - Started FWA_001
+2023-02-15 16:30:29,286 [main] INFO Freshii - zipcode is accepted
+2023-02-15 16:30:29,542 [main] INFO Freshii - landed on login page
+2023-02-15 16:30:29,832 [main] INFO Freshii - landed on SignUp page
+2023-02-15 16:30:31,081 [main] INFO Freshii - Check the entered signup details and try again!
+2023-02-15 16:30:32,625 [main] DEBUG Freshii - Debug logging has started 
+2023-02-15 16:30:35,799 [main] INFO Freshii - Started FWA_002
+2023-02-15 16:30:41,825 [main] INFO Freshii - zipcode is accepted
+2023-02-15 16:30:42,102 [main] INFO Freshii - landed on login page
+2023-02-15 16:30:44,031 [main] INFO Freshii - Login is Successful
+2023-02-15 16:30:44,218 [main] INFO Freshii - there are options in the list
+2023-02-15 16:30:45,104 [main] INFO Freshii - click logout
+2023-02-15 16:30:46,557 [main] INFO Freshii - User is logged out, page title is : Find your freshii
+2023-02-15 16:30:46,557 [main] INFO Freshii - Completed FWA_002
+2023-02-15 16:30:47,932 [main] DEBUG Freshii - Debug logging has started 
+2023-02-15 16:30:50,817 [main] INFO Freshii - Started FWA_016
+2023-02-15 16:30:56,836 [main] INFO Freshii - zipcode is accepted
+2023-02-15 16:30:57,037 [main] INFO Freshii - landed on login page
+2023-02-15 16:30:58,955 [main] INFO Freshii - Login is Successful
+2023-02-15 16:30:59,053 [main] INFO Freshii - there are options in the list
+2023-02-15 16:30:59,552 [main] INFO Freshii - Upon clicking on My Account the user landed on My account page
+2023-02-15 16:31:01,162 [main] DEBUG Freshii - Debug logging has started 
+2023-02-15 16:31:04,509 [main] INFO Freshii - Started FWA_018
+2023-02-15 16:31:10,499 [main] INFO Freshii - zipcode is accepted
+2023-02-15 16:31:10,738 [main] INFO Freshii - landed on login page
+2023-02-15 16:31:12,590 [main] INFO Freshii - Login is Successful
+2023-02-15 16:31:12,684 [main] INFO Freshii - there are options in the list
+2023-02-15 16:31:13,998 [main] INFO Freshii - Upon clicking on the 'Order History' the user landed on 'Order History' page
+2023-02-15 16:31:14,013 [main] INFO Freshii - Completed FWA_018
+2023-02-15 16:31:15,221 [main] DEBUG Freshii - Debug logging has started 
+2023-02-15 16:31:18,681 [main] INFO Freshii - Started FWA_019
+2023-02-15 16:31:24,656 [main] INFO Freshii - zipcode is accepted
+2023-02-15 16:31:24,891 [main] INFO Freshii - landed on login page
+2023-02-15 16:31:26,725 [main] INFO Freshii - Login is Successfull
+2023-02-15 16:31:26,824 [main] INFO Freshii - there are options in the list
+2023-02-15 16:31:26,957 [main] INFO Freshii - click logout
+2023-02-15 16:31:29,056 [main] INFO Freshii - User is logged out, page title is : Find your freshii
+2023-02-15 16:31:29,056 [main] INFO Freshii - Completed FWA_019
+2023-02-15 16:31:30,147 [main] DEBUG Freshii - Debug logging has started 
+2023-02-15 16:31:33,465 [main] INFO Freshii - Started FWA_020
+2023-02-15 16:31:39,410 [main] INFO Freshii - zipcode is accepted
+2023-02-15 16:31:39,611 [main] INFO Freshii - landed on login page
+2023-02-15 16:31:41,534 [main] INFO Freshii - Login is Successful
+2023-02-15 16:31:43,752 [main] INFO Freshii - pickup button color : #249e6b hence it is selected by default
+2023-02-15 16:31:47,606 [main] INFO Freshii - Order added to cart, with system generated message: 
+2023-02-15 16:31:57,305 [main] INFO Freshii - pickup option is selected by default
+2023-02-15 16:31:58,841 [main] INFO Freshii - Pickup has been scheduled for: Tomorrow, 12:45 PM
+2023-02-15 16:31:58,878 [main] INFO Freshii - Scheduled tomorrow : Tomorrow, 12:45 PM
+2023-02-15 16:31:58,879 [main] INFO Freshii - completed FWA_020

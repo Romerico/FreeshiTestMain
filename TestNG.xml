@@ -10,6 +10,12 @@
 	<test name="TestNGTest1" thread-count="5">
 		<classes>
 			<!-- packagename.classname -->
+			<class name="com.testCases.FWA_001" />
+			<class name="com.testCases.FWA_002" />
+			<class name="com.testCases.FWA_016" />
+			<class name="com.testCases.FWA_018" />
+			<class name="com.testCases.FWA_019" />
+			<class name="com.testCases.FWA_020" />
 
 		</classes>
 	</test>
