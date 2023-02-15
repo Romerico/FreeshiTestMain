@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FreshiiSuite">
+
+	<listeners>
+
+		<listener class-name="com.utilities.Reporting" />
+	</listeners>
+
+	<test name="TestNGTest1" thread-count="5">
+
+		<packages>
+			<package name="com.testCases"/>
+
+		</packages>
+<!--		<classes>-->
+<!--			&lt;!&ndash; packagename.classname &ndash;&gt;-->
+<!--			-->
+
+
+<!--		</classes>-->
+	</test>
+</suite> <!-- Suite -->
