@@ -38,7 +38,7 @@ import java.text.ParseException;
 //      b.Pick up time should be 15 minutes after store opening or 15 minutes before store closing time.
 //       c. Other time, ASAP option should be greyed out.
 
-public class FWA_070disabledEdit extends BaseClass {
+public class FWA_070disabledCheckAfter9PMAndDivideInto3 extends BaseClass {
 
     @Test(enabled = false)
     public void FWA_070 () throws IOException, InterruptedException, ParseException {
