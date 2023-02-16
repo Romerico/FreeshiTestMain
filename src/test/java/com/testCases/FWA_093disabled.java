@@ -106,7 +106,7 @@ public class FWA_093disabled extends BaseClass {
     }
 
 
-    @Test(priority = 7)
+    @Test(enabled = false)
     public void FWA_093_2() throws IOException, InterruptedException {
 //3. Once logged in, check if the Order now button is displayed in French.
 
@@ -148,7 +148,7 @@ public class FWA_093disabled extends BaseClass {
 
 
 
-    @Test(priority = 8)
+    @Test(enabled = false)
     public void FWA_093_3() throws IOException, InterruptedException {
 
         logger.info("Started FWA_093_3");

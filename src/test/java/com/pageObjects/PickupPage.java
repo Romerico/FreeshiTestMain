@@ -64,7 +64,8 @@ public class PickupPage extends BaseClass {
     @FindBy(xpath = "//div[@class=\"ant-modal-content\"]//span[@class=\"ant-select-selection-item\"]")
     WebElement timeList;
 
-    @FindBy(xpath = "//div[@class=\"ant-select-item ant-select-item-option\"]/div[@class=\"ant-select-item-option-content\" and contains(text(),\"PM\")]")
+    @FindBy(xpath = "//div[@class='ant-select-item ant-select-item-option' and @aria-selected='false']/div[@class=\"ant-select-item-option-content\"" +
+            " and contains(text(),\"PM\")]")
     List<WebElement> timesOptionsContent;
 
     @FindBy(xpath = "//div[@title=\"ASAP\"]")
@@ -139,14 +140,18 @@ public class PickupPage extends BaseClass {
 //            ***
 //            js.executeScript("arguments[0].scrollBy(0, 1000);", timesDropdown);
 
+        try {
+            Actions actions = new Actions(driver);
 
-        Actions actions = new Actions(driver);
+            actions.moveToElement(scrollbar).clickAndHold().moveByOffset(0, 221).release().perform();
+        }
+        catch(ElementNotInteractableException e){
+            logger.info("late time, not much time options");
+        }
 
-        actions.moveToElement(scrollbar).clickAndHold().moveByOffset(0, 221).release().perform();
 
-
-        wait.until(ExpectedConditions.visibilityOf(timesOptionsContent.get(timesOptionsContent.size() - 2)));
-        String latepickupTime = timesOptionsContent.get(timesOptionsContent.size() - 2).getText().
+        wait.until(ExpectedConditions.visibilityOf(timesOptionsContent.get(timesOptionsContent.size() - 1)));
+        String latepickupTime = timesOptionsContent.get(timesOptionsContent.size() - 1).getText().
                 trim().replaceAll("[^\\d:]", "");
         Date latePickup = formatter.parse(latepickupTime);
 
@@ -173,7 +178,7 @@ public class PickupPage extends BaseClass {
 
 
             }
-            if (driver.getCurrentUrl().contains("cart") && storeClosedPopup.isDisplayed()) {
+            else if (driver.getCurrentUrl().contains("cart") && storeClosedPopup.isDisplayed()) {
                 wait.until(ExpectedConditions.elementToBeClickable(scheduleOrderPopupBtn));
                 scheduleOrderPopupBtn.click();
 
@@ -181,9 +186,9 @@ public class PickupPage extends BaseClass {
                 timeList.click();
 
                 wait.until(ExpectedConditions.elementToBeClickable(timesOptionsContent.get(0)));
-                timesOptionsContent.get(0).getText();
+                timesOptionsContent.get(1).getText();
 
-                String firtsPickupTime = timesOptionsContent.get(1).getText().trim().replaceAll("[^\\d:]", "");
+                String firtsPickupTime = timesOptionsContent.get(0).getText().trim().replaceAll("[^\\d:]", "");
 
                 SimpleDateFormat formatter = new SimpleDateFormat("HH:mm");
                 Date firstPickupTimeDate = formatter.parse(firtsPickupTime);

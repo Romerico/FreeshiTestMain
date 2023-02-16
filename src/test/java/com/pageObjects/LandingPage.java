@@ -123,7 +123,7 @@ public class LandingPage extends BaseClass {
 
 	//Performing click operations for SignUp WebElement
 	public void clickProfileButton() throws InterruptedException {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		Thread.sleep(3000);
 
 		wait.until(ExpectedConditions.elementToBeClickable(profileButton));
 		profileButton.click();

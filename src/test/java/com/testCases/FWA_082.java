@@ -127,7 +127,7 @@ public class FWA_082 extends BaseClass {
 
         softassert.assertAll();
 
-        o.goToCartAndDeleteStuffForFutureTests();
+//        o.goToCartAndDeleteStuffForFutureTests();
 
         logger.info("Completed FWA_082");
 

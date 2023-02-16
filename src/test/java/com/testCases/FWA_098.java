@@ -110,7 +110,7 @@ public class FWA_098 extends BaseClass {
 
         softassert.assertAll();
 
-        o.goToCartAndDeleteStuffForFutureTests();
+//        o.goToCartAndDeleteStuffForFutureTests();
 
         logger.info("The upsell item is in the order list on a confirmation stage");
         logger.info("Completed FWA_098");

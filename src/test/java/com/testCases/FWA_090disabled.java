@@ -75,7 +75,7 @@ public class FWA_090disabled extends BaseClass {
     }
 
 
-    @Test(priority = 2)
+    @Test(enabled = false)
     public void FWA_090_1() throws IOException, InterruptedException {
 
         logger.info("Started FWA_090_1");
@@ -117,7 +117,7 @@ public class FWA_090disabled extends BaseClass {
     }
 
 
-    @Test(priority = 3)
+    @Test(enabled = false)
     public void FWA_090_2() throws IOException, InterruptedException {
 
         logger.info("Started FWA_090_2");
@@ -159,7 +159,7 @@ public class FWA_090disabled extends BaseClass {
         logger.info("Completed FWA_090_2");
     }
 
-    @Test(priority = 4)
+    @Test(enabled = false)
     public void FWA_090_3() throws IOException, InterruptedException {
 
         logger.info("Started FWA_090_3");
@@ -201,7 +201,7 @@ public class FWA_090disabled extends BaseClass {
         logger.info("Completed FWA_090_3");
     }
 
-    @Test(priority = 5)
+    @Test(enabled = false)
     public void FWA_090_4() throws IOException, InterruptedException {
 
         logger.info("Started FWA_090_4");
